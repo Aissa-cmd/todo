@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./todo.css" />
+        <title>ToDoList</title>
+    </head>
+    <body>
+        <h1 class="title"><i class="fas fa-list"></i> ToDo List</h1>
+        <div class="container">
+            <div class="todo-input-container">
+                <input type="text" name="todo-input" id="todo-input-field" autocomplete="off" />
+                <button class="todo-input-add-button"><i class="fas fa-plus-square"></i></button>
+                <!-- <div class="todo-filter"><i class="fas fa-filter"></i> Filter</div> -->
+            </div>
+            <div class="todo-items-container">
+                <ul class="todo-items-list">
+                    <!-- <div class="item-container">
+                        <li class="todo-item">jhgjh</li>
+                        <button class="item-check"><i class="fas fa-check"></i></button>
+                        <button class="item-remove"><i class="fas fa-trash-alt"></i></button>
+                    </div> -->
+                </ul>
+            </div>
+        </div>
+        <script src="./todo.js"></script>
+    </body>
+</html>
